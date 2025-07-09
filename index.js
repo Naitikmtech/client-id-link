@@ -7,7 +7,7 @@ app.get("/candidate/show-client", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("✅ Replit App is running. Try /candidate/show-client?authkey=abc");
+  res.send("✅ Replit App is running. Try /candidate/show-client?clientId=abc");
 });
 
 app.listen(3000, () => {
